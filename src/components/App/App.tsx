@@ -14,7 +14,7 @@ const headers: TableHeader[] = [
   { key: 'stock', value: 'Available Stock', right: true }
 ]
 
-function App() {
+function App() { 
   const [products, setProducts] = useState(Products)
   const [updatingProduct, setUpdatingProduct] = useState<Product | undefined>(products[0])
   
