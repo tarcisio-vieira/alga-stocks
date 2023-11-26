@@ -21,4 +21,4 @@ export const updateSingleProduct = ({ _id, name, price, stock }: Product) =>
 
 export const deleteSingleProduct = (id: string) =>
   http
-    .delete(`/products/${id}`) 
+    .delete(`/products/${id}`)
