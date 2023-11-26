@@ -44,7 +44,7 @@ function App() {
 
   const handleProductDelete = (product: Product) => {
     Swal
-      .fire({
+      .fire({  
         title: 'Are you sure?',
         text: "You won't be able to revert this!",
         icon: 'warning',
