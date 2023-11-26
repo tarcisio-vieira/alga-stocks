@@ -1,6 +1,6 @@
 import { TableHeader } from "../shared/Table"
 
-type IndexedHeaders = {
+type IndexedHeaders = { 
   [key: string]: TableHeader
 }
 
